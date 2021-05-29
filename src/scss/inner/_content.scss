@@ -1,6 +1,10 @@
 .wo-inner {
   padding-top: 170px;
   background-color: #f6f6f8;
+
+  @media (max-width: 1199px) {
+    padding-top: 100px;
+  }
 }
 
 .wo-inner-slider {
@@ -11,13 +15,35 @@
 .wo-content {
   padding-left: 120px;
   padding-right: 120px;
+
+  @media (max-width: 1600px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: 991px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .wo-inner__image-cont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 670px;
+  position: relative;
+  padding-bottom: 56%;
+  margin-bottom: 24px;
+
+  @media (max-width: 1199px) {
+    padding-bottom: 40%;
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    max-height: 100%;
+  }
 }
 
 .wo-product-title-cont {
@@ -45,6 +71,10 @@
     font-size: 40px;
     color: #423f3f;
     font-family: $bold-n2;
+
+    @media (max-width: 1199px) {
+      font-size: 24px;
+    }
   }
 }
 
@@ -87,6 +117,7 @@
   margin-top: 30px;
   margin-bottom: 24px;
   display: flex;
+  flex-wrap: wrap;
 
   &__shops {
     padding: 14px 12px;
@@ -99,6 +130,8 @@
     line-height: 1;
     display: inline-flex;
     align-items: center;
+    white-space: nowrap;
+    margin-bottom: 16px;
 
     &:hover {
       text-decoration: none;
@@ -127,6 +160,7 @@
 
 .wo-tags {
   display: flex;
+  flex-wrap: wrap;
 
   &__item {
     font-size: 12px;
@@ -136,6 +170,8 @@
     line-height: 1;
     margin-right: 16px;
     color: #423f3f;
+    white-space: nowrap;
+    margin-bottom: 16px;
 
     &:hover {
       color: #423f3f;
@@ -155,6 +191,10 @@
 .wo-inner-promos {
   margin-top: 54px;
   margin-bottom: 120px;
+
+  @media (max-width: 1199px) {
+    display: none;
+  }
 
   &__title {
     font-family: $bold-n2;
@@ -212,6 +252,14 @@
   min-height: 734px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 991px) {
+    padding: 20px 10px;
+  }
+
+  @media (max-width: 1199px) {
+    top: 100px;
+  }
 
   &__progress-dot {
     position: absolute;
@@ -287,6 +335,10 @@
     font-size: 24px;
     font-family: $bold-m3;
     margin: 38px 0 32px 0;
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+    }
   }
 
   &__footer {
@@ -304,6 +356,11 @@
     align-items: center;
     width: calc(50% - 22px);
     height: 52px;
+
+    @media (max-width: 756px) {
+      font-size: 14px !important;
+      padding: 7px;
+    }
 
     &:hover {
       text-decoration: none;
@@ -331,6 +388,10 @@
       svg {
         margin-right: 19px;
       }
+
+      @media (max-width: 756px) {
+        font-size: 14px !important;
+      }
     }
   }
 
@@ -349,8 +410,26 @@
 
   &__choose-design-item-img {
     width: 122px;
+    min-width: 122px;
     height: 88px;
     margin-right: 18px;
+
+    @media (max-width: 991px) {
+      min-width: 100px;
+      height: 88px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__choose-design-item-title {
+    @media (max-width: 991px) {
+     font-size: 14px;
+    }
   }
 
   &__choose-type-item {
@@ -486,6 +565,10 @@
     font-size: 12px;
     font-family: $bold-n2;
     margin-bottom: 9px;
+
+    @media (max-width: 756px) {
+      font-size: 11px;
+    }
   }
 
   &__input-group {
