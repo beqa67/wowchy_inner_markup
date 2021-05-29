@@ -1,0 +1,133 @@
+.multiple-items-carousel {
+  &-section {
+    margin-bottom: 96px;
+
+    @media (max-width: 1336px) {
+      margin-bottom: 56px;
+    }
+
+    &__slider-container {
+      margin-left: 120px;
+
+      @media (max-width: 1336px) {
+        margin-left: 90px;
+      }
+
+      @media (max-width: 1200px) {
+        margin-left: 15px;
+      }
+    }
+
+    &__title-cont {
+      margin-bottom: 64px;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      @media (max-width: 567px) {
+        margin-bottom: 34px;
+      }
+    }
+
+    &__title {
+      font-family: $bold-n2;
+      font-size: 24px;
+
+      @media (max-width: 567px) {
+        font-size: 18px;
+      }
+    }
+
+    &__link {
+      font-family: $regular-n2;
+      font-size: 16px;
+      color: #484848;
+
+      &:hover {
+        color: #484848;
+        text-decoration: none;
+      }
+
+      @media (max-width: 567px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__slide-item {
+    width: 254px;
+    height: auto;
+
+    @media (max-width: 567px) {
+      width: 140px;
+    }
+  }
+
+  &__item {
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    height: 100%;
+    padding: 32px 14px 24px 14px;
+    color: #423f3f;
+    display: block;
+
+    &:hover {
+      color: #423f3f;
+      text-decoration: none;
+    }
+
+    @media (max-width: 567px) {
+      padding: 16px 14px 16px 14px;
+    }
+  }
+
+  &__item-img-cont {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 41px;
+
+    @media (max-width: 567px) {
+      height: 64px;
+      margin-bottom: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__item-body {
+    text-align: center;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (max-width: 567px) {
+      height: 60px;
+    }
+  }
+
+  &__item-title {
+    font-family: $regular-n2;
+    font-size: 20px;
+
+    @media (max-width: 567px) {
+      font-size: 14px;
+    }
+  }
+
+  &__item-price {
+    font-size: 16px;
+    color: rgba(#423f3f, 0.6);
+
+    @media (max-width: 567px) {
+      font-size: 12px;
+    }
+  }
+}

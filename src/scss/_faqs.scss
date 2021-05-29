@@ -1,0 +1,90 @@
+.faqs-section {
+  margin-top: 200px;
+  @media (max-width: 1200px) {
+    margin-top: 48px;
+  }
+
+  &__title {
+    font-family: $bold-n2;
+    font-size: 40px;
+    margin-bottom: 36px;
+    @media (max-width: 1500px) {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    @media (max-width: 1200px) {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $regular-n2;
+
+    @media (max-width: 1200px) {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
+
+.faqs-accordion {
+  @media (max-width: 1200px) {
+    margin-top: 45px;
+  }
+  &__header {
+    font-family: $bold-n2;
+    font-size: 16px;
+    padding: 27px 40px;
+    cursor: pointer;
+    background-image: url("../assets/images/plus.svg");
+    background-repeat: no-repeat;
+    background-position: top 50% right 45px;
+    position: relative;
+
+    @media (max-width: 1200px) {
+      padding: 18px 24px;
+      font-size: 14px;
+      background-position: top 50% right 24px;
+      padding-right: 50px;
+    }
+
+    &[aria-expanded="true"] {
+      background-image: url("../assets/images/minus.svg");
+    }
+
+    &--noicon {
+      background-image: none;
+    }
+
+    &--arrow-icon {
+      width: 9px;
+      height: 12px;
+      position: absolute;
+      right: 45px;
+      top: 50%;
+      transform: translateY(-50%);
+      @media (max-width: 1200px) {
+        right: 24px;
+      }
+    }
+  }
+
+  .card {
+    margin-bottom: 24px;
+    border: 1px solid #efefef;
+    color: #423f3f;
+
+    &:hover {
+      color: #423f3f;
+      text-decoration: none;
+    }
+  }
+  .card-header {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #efefef;
+  }
+}

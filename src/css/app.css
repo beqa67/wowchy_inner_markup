@@ -1,0 +1,1125 @@
+@font-face {
+  font-family: 'MC Geo N1';
+  src: url("../assets/fonts/MCGeoN1-Regular.eot");
+  src: url("../assets/fonts/MCGeoN1-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoN1-Regular.woff2") format("woff2"), url("../assets/fonts/MCGeoN1-Regular.woff") format("woff"), url("../assets/fonts/MCGeoN1-Regular.svg#MCGeoN1-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo N2';
+  src: url("../assets/fonts/MCGeoN2-Regular.eot");
+  src: url("../assets/fonts/MCGeoN2-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoN2-Regular.woff2") format("woff2"), url("../assets/fonts/MCGeoN2-Regular.woff") format("woff"), url("../assets/fonts/MCGeoN2-Regular.svg#MCGeoN2-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo M3';
+  src: url("../assets/fonts/MCGeoM3-Light.eot");
+  src: url("../assets/fonts/MCGeoM3-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoM3-Light.woff2") format("woff2"), url("../assets/fonts/MCGeoM3-Light.woff") format("woff"), url("../assets/fonts/MCGeoM3-Light.svg#MCGeoM3-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo M3 bold';
+  src: url("../assets/fonts/MCGeoM3-Bold.eot");
+  src: url("../assets/fonts/MCGeoM3-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoM3-Bold.woff2") format("woff2"), url("../assets/fonts/MCGeoM3-Bold.woff") format("woff"), url("../assets/fonts/MCGeoM3-Bold.svg#MCGeoM3-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo N2';
+  src: url("../assets/fonts/MCGeoN2-Light.eot");
+  src: url("../assets/fonts/MCGeoN2-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoN2-Light.woff2") format("woff2"), url("../assets/fonts/MCGeoN2-Light.woff") format("woff"), url("../assets/fonts/MCGeoN2-Light.svg#MCGeoN2-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo N2 bold';
+  src: url("../assets/fonts/MCGeoN2-Bold.eot");
+  src: url("../assets/fonts/MCGeoN2-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoN2-Bold.woff2") format("woff2"), url("../assets/fonts/MCGeoN2-Bold.woff") format("woff"), url("../assets/fonts/MCGeoN2-Bold.svg#MCGeoN2-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'MC Geo M3';
+  src: url("../assets/fonts/MCGeoM3-Regular.eot");
+  src: url("../assets/fonts/MCGeoM3-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MCGeoM3-Regular.woff2") format("woff2"), url("../assets/fonts/MCGeoM3-Regular.woff") format("woff"), url("../assets/fonts/MCGeoM3-Regular.svg#MCGeoM3-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url("../assets/fonts/MinionPro-Regular.eot");
+  src: url("../assets/fonts/MinionPro-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/MinionPro-Regular.woff2") format("woff2"), url("../assets/fonts/MinionPro-Regular.woff") format("woff"), url("../assets/fonts/MinionPro-Regular.svg#MinionPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+.h100-p {
+  height: 100%; }
+
+.w100-p {
+  width: 100%; }
+
+.color-green {
+  color: #178038; }
+
+.color-yellow {
+  color: #FEBD01; }
+
+.color-pink {
+  color: #F9718E; }
+
+.color-blue {
+  color: #1B73E8; }
+
+.main-button {
+  padding: 25px 65px;
+  border: 2px solid #178038;
+  border-radius: 8px;
+  outline: none;
+  font-family: "MC Geo N2 bold";
+  font-size: 24px;
+  color: #423f3f; }
+  .main-button:hover {
+    color: #423f3f;
+    text-decoration: none; }
+
+html,
+.site {
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+.site {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal; }
+  .site__header, .site__footer {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none; }
+  .site__content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 100%; }
+
+.wo-container {
+  padding-left: 24px;
+  padding-right: 24px; }
+  @media (max-width: 567px) {
+    .wo-container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.wo-s-container {
+  padding-left: 120px;
+  padding-right: 120px; }
+  @media (max-width: 1336px) {
+    .wo-s-container {
+      padding-left: 90px;
+      padding-right: 90px; } }
+  @media (max-width: 1200px) {
+    .wo-s-container {
+      padding-left: 24px;
+      padding-right: 24px; } }
+  @media (max-width: 567px) {
+    .wo-s-container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+body {
+  font-family: "MC Geo N2";
+  color: #484848; }
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.contain-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+ul {
+  padding-left: 0; }
+
+li,
+ol {
+  list-style: none; }
+
+.b-radius-4 {
+  border-radius: 4px; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.logo {
+  height: 30px; }
+  .logo img {
+    height: 100%;
+    object-fit: contain; }
+  @media (max-width: 1299px) {
+    .logo {
+      height: 24px; } }
+
+.main-carousel-section {
+  background-color: #f8f7f8;
+  margin-bottom: 72px;
+  margin-top: 104px; }
+  @media (max-width: 991px) {
+    .main-carousel-section {
+      max-height: 350px;
+      margin-bottom: 60px; } }
+  .main-carousel-section .swiper-slide {
+    position: relative;
+    padding-bottom: 21.5%; }
+    @media (max-width: 991px) {
+      .main-carousel-section .swiper-slide {
+        padding-bottom: 44%; } }
+  @media (max-width: 1199px) {
+    .main-carousel-section {
+      height: auto;
+      margin-top: calc(56px + 20px); } }
+  .main-carousel-section__item-img-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block; }
+    .main-carousel-section__item-img-link img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+  .main-carousel-section__slider__pagination {
+    width: auto !important;
+    left: 50% !important;
+    bottom: 23px !important;
+    transform: translateX(-50%); }
+    @media (max-width: 1199px) {
+      .main-carousel-section__slider__pagination {
+        bottom: 15px !important; } }
+    .main-carousel-section__slider__pagination .swiper-pagination-bullet {
+      width: 14px;
+      height: 14px;
+      background-color: #423f3f;
+      margin: 0 8px !important; }
+      @media (max-width: 1199px) {
+        .main-carousel-section__slider__pagination .swiper-pagination-bullet {
+          width: 8px;
+          height: 8px; } }
+      @media (max-width: 991px) {
+        .main-carousel-section__slider__pagination .swiper-pagination-bullet {
+          width: 6px;
+          height: 6px; } }
+    .main-carousel-section__slider__pagination .swiper-pagination-bullet-active {
+      background-color: #fff;
+      border: 4px solid #423f3f; }
+      @media (max-width: 1199px) {
+        .main-carousel-section__slider__pagination .swiper-pagination-bullet-active {
+          border: 2px solid #423f3f; } }
+
+.multiple-items-carousel-section {
+  margin-bottom: 96px; }
+  @media (max-width: 1336px) {
+    .multiple-items-carousel-section {
+      margin-bottom: 56px; } }
+  .multiple-items-carousel-section__slider-container {
+    margin-left: 120px; }
+    @media (max-width: 1336px) {
+      .multiple-items-carousel-section__slider-container {
+        margin-left: 90px; } }
+    @media (max-width: 1200px) {
+      .multiple-items-carousel-section__slider-container {
+        margin-left: 15px; } }
+  .multiple-items-carousel-section__title-cont {
+    margin-bottom: 64px; }
+    @media (max-width: 767px) {
+      .multiple-items-carousel-section__title-cont {
+        flex-direction: column; } }
+    @media (max-width: 567px) {
+      .multiple-items-carousel-section__title-cont {
+        margin-bottom: 34px; } }
+  .multiple-items-carousel-section__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 24px; }
+    @media (max-width: 567px) {
+      .multiple-items-carousel-section__title {
+        font-size: 18px; } }
+  .multiple-items-carousel-section__link {
+    font-family: "MC Geo N2";
+    font-size: 16px;
+    color: #484848; }
+    .multiple-items-carousel-section__link:hover {
+      color: #484848;
+      text-decoration: none; }
+    @media (max-width: 567px) {
+      .multiple-items-carousel-section__link {
+        font-size: 12px; } }
+
+.multiple-items-carousel__slide-item {
+  width: 254px;
+  height: auto; }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__slide-item {
+      width: 140px; } }
+
+.multiple-items-carousel__item {
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  height: 100%;
+  padding: 32px 14px 24px 14px;
+  color: #423f3f;
+  display: block; }
+  .multiple-items-carousel__item:hover {
+    color: #423f3f;
+    text-decoration: none; }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__item {
+      padding: 16px 14px 16px 14px; } }
+
+.multiple-items-carousel__item-img-cont {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 41px; }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__item-img-cont {
+      height: 64px;
+      margin-bottom: 15px; } }
+  .multiple-items-carousel__item-img-cont img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; }
+
+.multiple-items-carousel__item-body {
+  text-align: center;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__item-body {
+      height: 60px; } }
+
+.multiple-items-carousel__item-title {
+  font-family: "MC Geo N2";
+  font-size: 20px; }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__item-title {
+      font-size: 14px; } }
+
+.multiple-items-carousel__item-price {
+  font-size: 16px;
+  color: rgba(66, 63, 63, 0.6); }
+  @media (max-width: 567px) {
+    .multiple-items-carousel__item-price {
+      font-size: 12px; } }
+
+.package-section {
+  margin-top: 100px;
+  margin-bottom: 120px; }
+  @media (max-width: 1336px) {
+    .package-section {
+      margin-top: 56px; } }
+  .package-section__item {
+    background-color: #f8f7f8;
+    padding: 72px 15px 0 15px;
+    height: 100%;
+    overflow: hidden; }
+    @media (max-width: 991px) {
+      .package-section__item {
+        padding: 20px 15px 0 15px; } }
+    .package-section__item:hover .package-section__item-img-cont img {
+      transform: translate(-50%, 30px); }
+  @media (max-width: 991px) {
+    .package-section__col {
+      margin-bottom: 12px; } }
+  .package-section__item-img-cont {
+    padding-top: 25px;
+    position: relative;
+    padding-bottom: 60%; }
+    @media (max-width: 991px) {
+      .package-section__item-img-cont {
+        padding-bottom: 35%; } }
+    @media (max-width: 767px) {
+      .package-section__item-img-cont {
+        padding-bottom: 60%; } }
+    .package-section__item-img-cont img {
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: 0.3s; }
+  .package-section__item-title {
+    font-family: "MC Geo N2 bold";
+    font-size: 56px;
+    margin-bottom: 35px; }
+    @media (max-width: 1500px) {
+      .package-section__item-title {
+        font-size: 46px; } }
+    @media (max-width: 1336px) {
+      .package-section__item-title {
+        font-size: 32px;
+        margin-bottom: 25px; } }
+  .package-section__item-info {
+    max-width: 450px;
+    margin: auto;
+    position: relative;
+    z-index: 2; }
+  .package-section__item-link {
+    color: #1b73e8; }
+    .package-section__item-link:hover {
+      color: #1b73e8;
+      text-decoration: none; }
+
+.reuse-slider {
+  padding: 80px 96px 40px 56px;
+  color: #fff; }
+  @media (max-width: 1200px) {
+    .reuse-slider {
+      padding-top: 30px; } }
+  @media (max-width: 650px) {
+    .reuse-slider {
+      overflow: hidden;
+      padding-left: 24px; } }
+  .reuse-slider--green {
+    background-color: #36b37e; }
+  .reuse-slider--pink {
+    background-color: #f9718e; }
+  .reuse-slider--blue {
+    background-color: #1b73e8; }
+  .reuse-slider__decor {
+    max-width: 100%;
+    object-fit: contain; }
+  .reuse-slider__carousel {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 650px) {
+      .reuse-slider__carousel {
+        overflow: visible; } }
+    .reuse-slider__carousel .swiper-slide {
+      min-width: 230px; }
+      @media (max-width: 650px) {
+        .reuse-slider__carousel .swiper-slide {
+          min-width: auto;
+          padding-right: 15px; } }
+  .reuse-slider__info {
+    padding-left: 40px;
+    margin-bottom: 80px; }
+    @media (max-width: 1500px) {
+      .reuse-slider__info {
+        padding-left: 0; } }
+    @media (max-width: 1200px) {
+      .reuse-slider__info {
+        margin-bottom: 30px; } }
+  .reuse-slider__sub-title {
+    font-size: 16px;
+    margin-bottom: 23px; }
+  .reuse-slider__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 32px; }
+    @media (max-width: 1500px) {
+      .reuse-slider__title {
+        font-size: 24px; } }
+  .reuse-slider__item {
+    color: #fff;
+    margin-bottom: 48px; }
+    .reuse-slider__item:hover {
+      color: #fff;
+      text-decoration: none; }
+  .reuse-slider__item-img {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    margin-right: 32px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 991px) {
+      .reuse-slider__item-img {
+        margin-right: 17px;
+        width: 64px;
+        height: 64px;
+        min-width: 64px;
+        min-height: 64px; } }
+    .reuse-slider__item-img img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain; }
+  .reuse-slider__item-title {
+    font-size: 20px;
+    padding-top: 15px; }
+    @media (max-width: 991px) {
+      .reuse-slider__item-title {
+        font-size: 16px;
+        padding-top: 11px; } }
+  .reuse-slider__item-price {
+    font-size: 16px; }
+    @media (max-width: 991px) {
+      .reuse-slider__item-price {
+        font-size: 14px; } }
+  @media (max-width: 1200px) {
+    .reuse-slider__carousel-container {
+      margin-top: 70px; } }
+  .reuse-slider__carousel-navs {
+    width: 124px;
+    margin-left: auto;
+    margin-bottom: 48px; }
+  .reuse-slider__carousel-nav {
+    width: 54px;
+    height: 54px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
+    .reuse-slider__carousel-nav--prev {
+      margin-right: 16px; }
+      .reuse-slider__carousel-nav--prev img {
+        transform: rotate(-180deg); }
+    .reuse-slider__carousel-nav:focus {
+      outline: none; }
+    .reuse-slider__carousel-nav.swiper-button-disabled {
+      opacity: 0.3;
+      pointer-events: none; }
+  .reuse-slider__all-link {
+    color: #fff;
+    font-family: "MC Geo N2 bold";
+    font-size: 16px; }
+    .reuse-slider__all-link svg {
+      width: 8px !important;
+      height: 8px !important;
+      margin-left: 17px; }
+      .reuse-slider__all-link svg * {
+        fill: #fff; }
+    .reuse-slider__all-link:hover {
+      color: #fff;
+      text-decoration: none; }
+
+.categories-section {
+  margin-top: 120px;
+  margin-bottom: 120px; }
+  @media (max-width: 991px) {
+    .categories-section {
+      margin-top: 48px;
+      margin-bottom: 48px; } }
+  .categories-section__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 56px;
+    margin-bottom: 40px; }
+    @media (max-width: 1500px) {
+      .categories-section__title {
+        font-size: 46px; } }
+    @media (max-width: 1200px) {
+      .categories-section__title {
+        font-size: 32px; } }
+  .categories-section__item {
+    color: #423f3f;
+    height: 100%; }
+    .categories-section__item:hover {
+      color: #423f3f;
+      text-decoration: none; }
+    @media (max-width: 991px) {
+      .categories-section__item {
+        position: relative; } }
+  .categories-section__item-img {
+    border-radius: 4px;
+    background-color: #f8f7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    .categories-section__item-img img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 80%;
+      max-height: 65%; }
+      @media (max-width: 991px) {
+        .categories-section__item-img img {
+          top: 10px;
+          transform: translateX(-50%);
+          max-height: 70%; } }
+    @media (max-width: 991px) {
+      .categories-section__item-img {
+        width: 100% !important;
+        padding-bottom: 60% !important; } }
+    @media (max-width: 576px) {
+      .categories-section__item-img {
+        padding-bottom: 80% !important; } }
+  .categories-section__item-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; }
+    @media (max-width: 991px) {
+      .categories-section__item-info {
+        position: absolute;
+        bottom: 17px;
+        font-size: 14px; } }
+  .categories-section__item--big .categories-section__item-img {
+    width: 49%;
+    min-width: 49%;
+    padding-bottom: 49%; }
+  .categories-section__item--small {
+    height: 100%; }
+    .categories-section__item--small .categories-section__item-img {
+      width: 49%;
+      min-width: 49%;
+      padding-bottom: 45%; }
+  .categories-section__item--shop {
+    height: 100%;
+    position: relative; }
+    .categories-section__item--shop .categories-section__item-img {
+      min-width: 100%;
+      padding-bottom: 100%;
+      background-color: rgba(249, 113, 142, 0.1); }
+      .categories-section__item--shop .categories-section__item-img img {
+        top: 16px;
+        transform: translateX(-50%); }
+    @media (max-width: 991px) {
+      .categories-section__item--shop {
+        position: static;
+        background-color: rgba(249, 113, 142, 0.1);
+        height: 176px; }
+        .categories-section__item--shop .categories-section__item-img {
+          min-width: auto;
+          width: 50% !important;
+          background-color: transparent;
+          padding-bottom: initial !important; } }
+  .categories-section__items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 24px; }
+    @media (max-width: 991px) {
+      .categories-section__items {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 0; } }
+  @media (max-width: 991px) {
+    .categories-section__grid-item {
+      width: calc(50% - 5px);
+      margin-bottom: 10px; }
+      .categories-section__grid-item:nth-child(odd) {
+        margin-right: 10px; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--2 {
+      grid-column-start: 3;
+      grid-column-end: 4; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--3 {
+      grid-column-start: 4;
+      grid-column-end: 5; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--4 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--5 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--6 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 3; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--7 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 5; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--8 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 5; } }
+  @media (min-width: 992px) {
+    .categories-section__grid-item--9 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 5; } }
+  @media (max-width: 991px) {
+    .categories-section__grid-item--9 {
+      width: 100%;
+      margin-right: 0 !important; } }
+  .categories-section__item-shop-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    min-width: 250px;
+    padding: 25px 5px;
+    text-align: center; }
+    @media (max-width: 1700px) {
+      .categories-section__item-shop-btn {
+        padding: 18px 5px; } }
+    @media (max-width: 1444px) {
+      .categories-section__item-shop-btn {
+        padding: 12px 5px;
+        font-size: 22px;
+        min-width: 200px; } }
+    @media (max-width: 1336px) {
+      .categories-section__item-shop-btn {
+        font-size: 18px; } }
+    @media (max-width: 991px) {
+      .categories-section__item-shop-btn {
+        position: static;
+        transform: translateX(0);
+        width: 196px;
+        min-width: 196px;
+        height: 38px;
+        margin: auto;
+        font-size: 14px;
+        padding: 0;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-right: 26px; } }
+
+.services-section {
+  margin-top: 134px;
+  margin-bottom: 200px; }
+  @media (max-width: 1200px) {
+    .services-section {
+      margin-top: 48px;
+      margin-bottom: 48px; } }
+  .services-section__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 56px; }
+    @media (max-width: 1500px) {
+      .services-section__title {
+        font-size: 46px; } }
+    @media (max-width: 1200px) {
+      .services-section__title {
+        font-size: 32px; } }
+  .services-section__sub-title {
+    font-size: 16px;
+    max-width: 402px; }
+    @media (max-width: 1200px) {
+      .services-section__sub-title {
+        font-size: 14px; } }
+  .services-section__row {
+    margin-top: 65px; }
+  .services-section__item {
+    padding: 56px 32px 65px 32px;
+    border-radius: 4px;
+    background-color: #f8f7f8;
+    text-align: center;
+    height: 100%; }
+    @media (max-width: 1700px) {
+      .services-section__item {
+        padding: 46px 18px 45px 18px; } }
+    @media (max-width: 922px) {
+      .services-section__item {
+        padding: 40px 18px 32px 18px; } }
+    .services-section__item--large {
+      background-color: rgba(27, 115, 232, 0.1); }
+      @media (max-width: 922px) {
+        .services-section__item--large {
+          padding-top: 32px;
+          padding-bottom: 40px; } }
+  .services-section__item-img-cont {
+    width: 104px;
+    height: 104px;
+    background-color: #fff;
+    border-radius: 32px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 54px; }
+    @media (max-width: 991px) {
+      .services-section__item-img-cont {
+        margin-bottom: 36px;
+        width: 71px;
+        height: 72px;
+        border-end-end-radius: 24px; } }
+    .services-section__item-img-cont img {
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain; }
+      @media (max-width: 991px) {
+        .services-section__item-img-cont img {
+          max-width: 50%;
+          max-height: 50%;
+          height: 72px; } }
+    .services-section__item-img-cont-large {
+      width: 100%;
+      height: 190px; }
+      .services-section__item-img-cont-large img {
+        max-width: 90%;
+        height: 100%;
+        object-fit: contain; }
+      @media (max-width: 991px) {
+        .services-section__item-img-cont-large {
+          height: 120px; } }
+  .services-section__item-title {
+    font-family: "MC Geo M3 bold";
+    font-size: 24px;
+    margin-bottom: 24px; }
+    @media (max-width: 1440px) {
+      .services-section__item-title {
+        font-size: 18px; } }
+    @media (max-width: 1200px) {
+      .services-section__item-title {
+        font-size: 16px; } }
+    @media (max-width: 991px) {
+      .services-section__item-title {
+        font-size: 18px; } }
+  .services-section__item-desc {
+    font-size: 18px; }
+    @media (max-width: 1440px) {
+      .services-section__item-desc {
+        font-size: 16px; } }
+    @media (max-width: 1200px) {
+      .services-section__item-desc {
+        font-size: 14px; } }
+    @media (max-width: 991px) {
+      .services-section__item-desc {
+        font-size: 16px; } }
+  .services-section__item-shop-btn {
+    white-space: nowrap;
+    border-color: #1b73e8; }
+    @media (max-width: 1700px) {
+      .services-section__item-shop-btn {
+        padding: 18px 35px; } }
+    @media (max-width: 1444px) {
+      .services-section__item-shop-btn {
+        padding: 12px 25px; } }
+    @media (max-width: 1336px) {
+      .services-section__item-shop-btn {
+        font-size: 18px; } }
+  @media (max-width: 991px) {
+    .services-section__col {
+      margin-bottom: 24px; } }
+  @media (max-width: 567px) {
+    .services-section__col {
+      margin-bottom: 10px; } }
+  @media (max-width: 922px) {
+    .services-section__info {
+      margin-top: 20px; } }
+
+.articles-section {
+  margin-bottom: 120px; }
+  @media (max-width: 991px) {
+    .articles-section {
+      margin-bottom: 48px; } }
+  @media (max-width: 991px) {
+    .articles-section .swiper-slide {
+      width: 335px;
+      min-width: 335px; } }
+  @media (max-width: 374px) {
+    .articles-section .swiper-slide {
+      width: 280px;
+      min-width: 280px; } }
+  @media (min-width: 991px) {
+    .articles-section .swiper-slide.second-row .articles-section__item {
+      flex-direction: row-reverse; } }
+  @media (max-width: 991px) {
+    .articles-section .row {
+      margin-right: 0; } }
+  @media (max-width: 991px) {
+    .articles-section-container {
+      padding-right: 0; } }
+  .articles-section__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 40px;
+    margin-bottom: 35px; }
+    @media (max-width: 1500px) {
+      .articles-section__title {
+        font-size: 32px; } }
+    @media (max-width: 1336px) {
+      .articles-section__title {
+        margin-bottom: 25px; } }
+  .articles-section__sub-title {
+    font-size: 16px; }
+  .articles-section__item-info {
+    text-align: center; }
+  .articles-section__carousel-container {
+    margin-top: 48px; }
+  .articles-section__item {
+    margin-bottom: 24px; }
+    @media (max-width: 991px) {
+      .articles-section__item {
+        flex-direction: column; } }
+  .articles-section__item-img {
+    position: relative;
+    padding-bottom: 48%;
+    min-width: 48%; }
+    .articles-section__item-img img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .articles-section__item-info {
+    padding: 64px 24px 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    @media (max-width: 1600px) {
+      .articles-section__item-info {
+        padding: 14px 24px 20px 24px; } }
+  .articles-section__item-title {
+    font-size: 24px;
+    margin-bottom: 32px; }
+    @media (max-width: 1500px) {
+      .articles-section__item-title {
+        font-size: 22px; } }
+    @media (max-width: 1336px) {
+      .articles-section__item-title {
+        font-size: 20px;
+        margin-bottom: 15px; } }
+  .articles-section__item-link {
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 24px;
+    color: #423f3f; }
+    .articles-section__item-link:hover {
+      color: #423f3f; }
+    .articles-section__item-link svg {
+      margin-left: 14px; }
+    @media (max-width: 1500px) {
+      .articles-section__item-link {
+        font-size: 22px; } }
+    @media (max-width: 1336px) {
+      .articles-section__item-link {
+        font-size: 20px; } }
+  .articles-section__item-desc {
+    font-size: 16px; }
+    @media (max-width: 1336px) {
+      .articles-section__item-desc {
+        font-size: 14px; } }
+  .articles-section__carousel-navs {
+    width: 124px;
+    margin-left: auto;
+    margin-bottom: 48px; }
+  .articles-section__carousel-nav {
+    width: 54px;
+    height: 54px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
+    .articles-section__carousel-nav svg {
+      width: 22px;
+      height: 22px; }
+    .articles-section__carousel-nav--prev {
+      margin-right: 16px; }
+      .articles-section__carousel-nav--prev svg {
+        transform: rotate(-180deg); }
+    .articles-section__carousel-nav:focus {
+      outline: none; }
+    .articles-section__carousel-nav.swiper-button-disabled {
+      opacity: 0.3;
+      pointer-events: none; }
+
+.faqs-section {
+  margin-top: 200px; }
+  @media (max-width: 1200px) {
+    .faqs-section {
+      margin-top: 48px; } }
+  .faqs-section__title {
+    font-family: "MC Geo N2 bold";
+    font-size: 40px;
+    margin-bottom: 36px; }
+    @media (max-width: 1500px) {
+      .faqs-section__title {
+        font-size: 32px;
+        margin-bottom: 15px; } }
+    @media (max-width: 1200px) {
+      .faqs-section__title {
+        font-size: 32px;
+        margin-bottom: 15px; } }
+  .faqs-section__desc {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "MC Geo N2"; }
+    @media (max-width: 1200px) {
+      .faqs-section__desc {
+        font-size: 14px;
+        line-height: 17px; } }
+
+@media (max-width: 1200px) {
+  .faqs-accordion {
+    margin-top: 45px; } }
+
+.faqs-accordion__header {
+  font-family: "MC Geo N2 bold";
+  font-size: 16px;
+  padding: 27px 40px;
+  cursor: pointer;
+  background-image: url("../assets/images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: top 50% right 45px;
+  position: relative; }
+  @media (max-width: 1200px) {
+    .faqs-accordion__header {
+      padding: 18px 24px;
+      font-size: 14px;
+      background-position: top 50% right 24px;
+      padding-right: 50px; } }
+  .faqs-accordion__header[aria-expanded="true"] {
+    background-image: url("../assets/images/minus.svg"); }
+  .faqs-accordion__header--noicon {
+    background-image: none; }
+  .faqs-accordion__header--arrow-icon {
+    width: 9px;
+    height: 12px;
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%); }
+    @media (max-width: 1200px) {
+      .faqs-accordion__header--arrow-icon {
+        right: 24px; } }
+
+.faqs-accordion .card {
+  margin-bottom: 24px;
+  border: 1px solid #efefef;
+  color: #423f3f; }
+  .faqs-accordion .card:hover {
+    color: #423f3f;
+    text-decoration: none; }
+
+.faqs-accordion .card-header {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #efefef; }
+
+.burger-menu {
+  display: none; }
+  @media (max-width: 1199px) {
+    .burger-menu--show {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      background-color: #f8f7f8;
+      overflow-y: auto;
+      padding-bottom: 40px; } }
+  .burger-menu__header {
+    height: 56px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f8f7f8; }
+  .burger-menu__header-close {
+    margin-left: 24px; }
+    @media (max-width: 567px) {
+      .burger-menu__header-close {
+        margin-left: 12px; } }
+  .burger-menu__content {
+    margin-top: 56px;
+    overflow-y: auto; }
+  .burger-menu__login {
+    padding: 16px 12px 16px 12px;
+    background-color: #fff; }
+  .burger-menu__login-img {
+    margin-bottom: 31px; }
+  .burger-menu__sign-btn {
+    padding: 16px;
+    display: block;
+    background-color: #fff;
+    font-family: "MC Geo M3 bold";
+    font-size: 16px;
+    border: 1px solid #1b73e8;
+    border-radius: 4px;
+    text-align: center; }
+    .burger-menu__sign-btn--up {
+      background-color: #1b73e8;
+      color: #fff;
+      margin-bottom: 8px; }
+      .burger-menu__sign-btn--up:hover {
+        color: #fff;
+        text-decoration: none; }
+  .burger-menu__categories-btn {
+    padding: 22px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #423F3F; }
+    .burger-menu__categories-btn:hover {
+      color: #423F3F; }
+    .burger-menu__categories-btn svg {
+      width: 24px;
+      height: 14px; }
+  .burger-menu__authenticated {
+    padding-top: 26px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #fff; }
+  .burger-menu__authenticated-welcome {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; }
+    .burger-menu__authenticated-welcome img {
+      width: 30px;
+      height: 30px; }
+  .burger-menu__authenticated-user {
+    font-family: "MC Geo N2 bold";
+    padding-left: 12px; }
+  .burger-menu__authenticated-link {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    color: #423F3F; }
+    .burger-menu__authenticated-link:hover {
+      color: #423F3F; }
+    .burger-menu__authenticated-link svg {
+      margin-left: auto; }
+    .burger-menu__authenticated-link-icon {
+      margin-right: 8px; }

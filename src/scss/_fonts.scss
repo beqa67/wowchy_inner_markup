@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'MC Geo N1';
+    src: url('../assets/fonts/MCGeoN1-Regular.eot');
+    src: url('../assets/fonts/MCGeoN1-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoN1-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoN1-Regular.woff') format('woff'),
+        url('../assets/fonts/MCGeoN1-Regular.svg#MCGeoN1-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo N2';
+    src: url('../assets/fonts/MCGeoN2-Regular.eot');
+    src: url('../assets/fonts/MCGeoN2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoN2-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoN2-Regular.woff') format('woff'),
+        url('../assets/fonts/MCGeoN2-Regular.svg#MCGeoN2-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo M3';
+    src: url('../assets/fonts/MCGeoM3-Light.eot');
+    src: url('../assets/fonts/MCGeoM3-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoM3-Light.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoM3-Light.woff') format('woff'),
+        url('../assets/fonts/MCGeoM3-Light.svg#MCGeoM3-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo M3 bold';
+    src: url('../assets/fonts/MCGeoM3-Bold.eot');
+    src: url('../assets/fonts/MCGeoM3-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoM3-Bold.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoM3-Bold.woff') format('woff'),
+        url('../assets/fonts/MCGeoM3-Bold.svg#MCGeoM3-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo N2';
+    src: url('../assets/fonts/MCGeoN2-Light.eot');
+    src: url('../assets/fonts/MCGeoN2-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoN2-Light.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoN2-Light.woff') format('woff'),
+        url('../assets/fonts/MCGeoN2-Light.svg#MCGeoN2-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo N2 bold';
+    src: url('../assets/fonts/MCGeoN2-Bold.eot');
+    src: url('../assets/fonts/MCGeoN2-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoN2-Bold.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoN2-Bold.woff') format('woff'),
+        url('../assets/fonts/MCGeoN2-Bold.svg#MCGeoN2-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MC Geo M3';
+    src: url('../assets/fonts/MCGeoM3-Regular.eot');
+    src: url('../assets/fonts/MCGeoM3-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MCGeoM3-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MCGeoM3-Regular.woff') format('woff'),
+        url('../assets/fonts/MCGeoM3-Regular.svg#MCGeoM3-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../assets/fonts/MinionPro-Regular.eot');
+    src: url('../assets/fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MinionPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MinionPro-Regular.woff') format('woff'),
+        url('../assets/fonts/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$regular-n2: 'MC Geo N2';
+$regular-m3: 'MC Geo M3';
+$bold-n2: 'MC Geo N2 bold';
+$bold-m3: 'MC Geo M3 bold'
