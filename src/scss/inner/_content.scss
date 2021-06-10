@@ -1,7 +1,6 @@
 .wo-inner {
-  padding-top: 170px;
+  padding-top: 104px;
   background-color: #f6f6f8;
-  
 
   @media (max-width: 1199px) {
     padding-top: 100px;
@@ -30,20 +29,21 @@
 
 .wo-inner__image-cont {
   position: relative;
-  padding-bottom: 56%;
+  // padding-bottom: 56%;
   margin-bottom: 24px;
 
   @media (max-width: 1199px) {
-    padding-bottom: 40%;
+    // padding-bottom: 40%;
   }
 
   img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    // position: absolute;
+    // left: 50%;
+    // top: 50%;
+    // transform: translate(-50%, -50%);
     object-fit: contain;
     max-height: 100%;
+    max-width: 100%;
   }
 }
 
@@ -242,11 +242,33 @@
     font-size: 16px;
   }
 }
-
-.wo-inner-side {
+.wo-inner-side-wrapper {
   position: -webkit-sticky;
   position: sticky;
-  top: 172px;
+  top: 120px;
+  overflow-y: auto;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-height: 1000px) {
+    top: 170px;
+  }
+
+  @media (max-height: 999px) {
+    height: 86vh;
+  }
+
+  @media (max-width: 1199px) {
+    top: 100px;
+    overflow-y: visible;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+}
+
+.wo-inner-side {
   padding: 24px;
   background-color: #fff;
   margin-bottom: 30px;
@@ -256,10 +278,6 @@
 
   @media (max-width: 991px) {
     padding: 20px 10px;
-  }
-
-  @media (max-width: 1199px) {
-    top: 100px;
   }
 
   &__progress-dot {
@@ -299,6 +317,7 @@
       height: 100%;
       width: 0;
       background-color: #1b73e8;
+      transition: 0.3s;
     }
 
     &--active-step {
@@ -371,6 +390,9 @@
       border: 1px solid #1b73e8;
       margin-right: 22px;
       color: #423f3f;
+      @media (max-width: 1500px) {
+        margin-right: 15px;
+      }
     }
     &--next {
       background-color: #1b73e8;
@@ -388,6 +410,18 @@
       font-size: 16px;
       svg {
         margin-right: 19px;
+
+        @media (max-width: 1500px) {
+          margin-right: 5px;
+        }
+      }
+
+      @media (max-width: 1500px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 1300px) {
+        font-size: 13px;
       }
 
       @media (max-width: 756px) {
@@ -442,6 +476,15 @@
     margin-bottom: 16px;
     display: block;
     cursor: pointer;
+    img {
+      transition: 0.3s;
+    }
+
+    &:hover {
+      img {
+        transform: translateY(-50%) scale(1.1);
+      }
+    }
   }
   &__choose-type-radio {
     position: absolute;
