@@ -244,6 +244,8 @@ ol {
   @media (max-width: 1199px) {
     .wo-inner {
       padding-top: 100px; } }
+  .wo-inner .wo-content > .row > .col-xl-4 {
+    padding-bottom: 120px; }
 
 .wo-inner-slider {
   background-color: #fff;
@@ -324,13 +326,13 @@ ol {
   display: flex;
   flex-wrap: wrap; }
   .wo-social-links__shops {
-    padding: 14px 12px;
+    padding: 14px 12px 14px 22px;
     border-radius: 20px;
     background-color: rgba(27, 115, 232, 0.1);
     display: inline-block;
     color: #1b73e8;
     font-size: 12px;
-    font-family: "MC Geo N2 bold";
+    font-family: "MC Geo M3 bold";
     line-height: 1;
     display: inline-flex;
     align-items: center;
@@ -373,6 +375,10 @@ ol {
   margin-top: 40px; }
   .faqs-accordion--inner .card {
     margin-bottom: 16px; }
+  .faqs-accordion--inner .card-header {
+    font-size: 14px; }
+  .faqs-accordion--inner .card-body {
+    font-size: 14px; }
 
 .wo-inner-promos {
   margin-top: 54px;
@@ -427,7 +433,7 @@ ol {
       top: 170px; } }
   @media (max-height: 999px) {
     .wo-inner-side-wrapper {
-      height: 86vh; } }
+      position: static; } }
   @media (max-width: 1199px) {
     .wo-inner-side-wrapper {
       top: 100px;
@@ -439,9 +445,8 @@ ol {
     width: auto; }
 
 .wo-inner-side {
-  padding: 24px;
+  padding: 24px 32px 32px 32px;
   background-color: #fff;
-  margin-bottom: 30px;
   min-height: 734px;
   display: flex;
   flex-direction: column; }
@@ -497,13 +502,13 @@ ol {
   .wo-inner-side__title {
     font-size: 24px;
     font-family: "MC Geo M3 bold";
-    margin: 38px 0 32px 0; }
+    margin: 40px 0 35px 0; }
     @media (max-width: 991px) {
       .wo-inner-side__title {
         font-size: 18px; } }
   .wo-inner-side__footer {
     display: flex;
-    margin-top: auto; }
+    margin-top: 24px; }
   .wo-inner-side__footer-nav {
     padding: 10px;
     border-radius: 8px;
@@ -552,14 +557,17 @@ ol {
         .wo-inner-side__footer-nav--cart {
           font-size: 14px !important; } }
   .wo-inner-side__content {
-    position: relative; }
+    position: relative;
+    margin-bottom: auto; }
   .wo-inner-side__choose-design-item {
     display: flex;
     align-items: center;
     border-radius: 2px;
     border: 1px solid #efefef;
-    padding: 12px;
+    padding: 11px 12px;
     margin-bottom: 16px; }
+    .wo-inner-side__choose-design-item:last-child {
+      margin-bottom: 0; }
   .wo-inner-side__choose-design-item-img {
     width: 122px;
     min-width: 122px;
@@ -588,6 +596,8 @@ ol {
     overflow: hidden; }
     .wo-inner-side__choose-type-item img {
       transition: 0.3s; }
+    .wo-inner-side__choose-type-item:last-child {
+      margin-bottom: 0; }
     .wo-inner-side__choose-type-item:hover img {
       transform: translateY(-50%) scale(1.1); }
   .wo-inner-side__choose-type-radio {
@@ -650,6 +660,8 @@ ol {
       margin-right: 16px; }
     .wo-inner-side__choose-price-item--active {
       border-color: #1b73e8; }
+    .wo-inner-side__choose-price-item:nth-last-of-type(-n+2) {
+      margin-bottom: 0; }
   .wo-inner-side__heart-text {
     font-size: 14px;
     line-height: 20px;
@@ -679,10 +691,13 @@ ol {
         background-image: url("../../assets/images/arrow-down.svg");
         background-repeat: no-repeat;
         background-position: center; }
+    .wo-inner-side__fill-data .col-12:last-child .wo-inner-side__input-group {
+      margin-bottom: 0; }
   .wo-inner-side__input-label {
     font-size: 12px;
     font-family: "MC Geo N2 bold";
-    margin-bottom: 9px; }
+    margin-bottom: 9px;
+    line-height: 1; }
     @media (max-width: 756px) {
       .wo-inner-side__input-label {
         font-size: 11px; } }
@@ -710,6 +725,8 @@ ol {
       height: 70px; }
       .wo-inner-side__input--textarea-large {
         height: 184px; }
+  .wo-inner-side__send-method .col-12:last-child .wo-inner-side__send-method-item {
+    margin-bottom: 0; }
   .wo-inner-side__send-method-item {
     border: 1px solid #efefef;
     border-radius: 2px;
@@ -718,7 +735,7 @@ ol {
   .wo-inner-side__send-method-item-header {
     margin-bottom: 30px; }
   .wo-inner-side__send-method-item-header-text {
-    padding-right: 120px; }
+    padding-right: 0; }
   .wo-inner-side__send-method-item-title {
     font-family: "MC Geo N2 bold";
     font-size: 16px;
