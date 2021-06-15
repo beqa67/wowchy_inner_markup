@@ -240,6 +240,7 @@
 
   &__item-sub-title {
     font-size: 16px;
+    color: #484848;
   }
 }
 .wo-inner-side-wrapper {
@@ -265,6 +266,10 @@
     height: auto;
     margin-bottom: 50px;
     margin-top: 30px;
+  }
+
+  .wo-inner-promos__item-bg {
+    width: auto;
   }
 }
 
@@ -476,6 +481,7 @@
     margin-bottom: 16px;
     display: block;
     cursor: pointer;
+    overflow: hidden;
     img {
       transition: 0.3s;
     }
@@ -569,6 +575,16 @@
 
     &--active {
       border-color: #1b73e8;
+    }
+  }
+
+  &__heart-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 31px;
+
+    p {
+      margin: 0;
     }
   }
 
