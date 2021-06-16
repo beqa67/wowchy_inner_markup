@@ -452,7 +452,7 @@
 
   &__choose-design-item {
     display: flex;
-    align-items: center;
+    // align-items: center;
     border-radius: 2px;
     border: 1px solid #efefef;
     padding: 11px 12px;
@@ -481,9 +481,22 @@
   }
 
   &__choose-design-item-title {
+    line-height: 24px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
     @media (max-width: 991px) {
      font-size: 14px;
+     line-height: 18px;
     }
+  }
+
+  &__choose-design-item-price {
+    font-size: 14px;
+    color: rgba(#423F3F, 0.7);
   }
 
   &__choose-type-item {
@@ -592,6 +605,7 @@
 
     &--active {
       border-color: #1b73e8;
+      color: #1b73e8;
     }
 
     &:nth-last-of-type(-n+2) {
