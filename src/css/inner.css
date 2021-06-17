@@ -398,9 +398,12 @@ ol {
     position: relative;
     border-radius: 4px;
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    overflow: hidden; }
     .wo-inner-promos__item:hover {
       text-decoration: none; }
+      .wo-inner-promos__item:hover .wo-inner-promos__item-bg {
+        transform: translateY(-50%) scale(1.1); }
   .wo-inner-promos__item-info {
     position: relative;
     z-index: 2; }
@@ -412,7 +415,8 @@ ol {
     transform: translateY(-50%);
     height: 100%;
     width: 66%;
-    object-fit: contain; }
+    object-fit: contain;
+    transition: 0.3s; }
   .wo-inner-promos__item-title {
     font-family: "MC Geo N2 bold";
     font-size: 16px; }
@@ -564,9 +568,12 @@ ol {
     border-radius: 2px;
     border: 1px solid #efefef;
     padding: 11px 12px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    cursor: pointer; }
     .wo-inner-side__choose-design-item:last-child {
       margin-bottom: 0; }
+    .wo-inner-side__choose-design-item:hover {
+      border-color: #1b73e8; }
   .wo-inner-side__choose-design-item-img {
     width: 122px;
     min-width: 122px;
@@ -610,8 +617,10 @@ ol {
       transition: 0.3s; }
     .wo-inner-side__choose-type-item:last-child {
       margin-bottom: 0; }
-    .wo-inner-side__choose-type-item:hover img {
-      transform: translateY(-50%) scale(1.1); }
+    .wo-inner-side__choose-type-item:hover {
+      border-color: #1b73e8; }
+      .wo-inner-side__choose-type-item:hover img {
+        transform: translateY(-50%) scale(1.1); }
   .wo-inner-side__choose-type-radio {
     position: absolute;
     visibility: hidden;
@@ -735,7 +744,8 @@ ol {
       outline: none;
       border-color: #1b73e8; }
     .wo-inner-side__input--textarea {
-      height: 70px; }
+      height: 70px;
+      line-height: 20px; }
       .wo-inner-side__input--textarea-large {
         height: 184px; }
   .wo-inner-side__send-method .col-12:last-child .wo-inner-side__send-method-item {

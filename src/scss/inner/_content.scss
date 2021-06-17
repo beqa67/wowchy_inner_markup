@@ -223,8 +223,13 @@
     border-radius: 4px;
     display: block;
     text-decoration: none;
+    overflow: hidden;
     &:hover {
       text-decoration: none;
+
+      .wo-inner-promos__item-bg {
+        transform: translateY(-50%) scale(1.1);
+      }
     }
   }
 
@@ -242,6 +247,7 @@
     height: 100%;
     width: 66%;
     object-fit: contain;
+    transition: 0.3s;
   }
 
   &__item-title {
@@ -457,8 +463,13 @@
     border: 1px solid #efefef;
     padding: 11px 12px;
     margin-bottom: 16px;
+    cursor: pointer;
     &:last-child {
       margin-bottom: 0;
+    }
+
+    &:hover {
+      border-color: #1b73e8;
     }
   }
 
@@ -517,6 +528,7 @@
     }
 
     &:hover {
+      border-color: #1b73e8;
       img {
         transform: translateY(-50%) scale(1.1);
       }
@@ -704,6 +716,7 @@
 
     &--textarea {
       height: 70px;
+      line-height: 20px;
 
       &-large {
         height: 184px;
