@@ -587,7 +587,8 @@ ol {
     border: 1px solid #efefef;
     padding: 11px 12px;
     margin-bottom: 16px;
-    cursor: pointer; }
+    cursor: pointer;
+    border-radius: 2px; }
     .wo-inner-side__choose-design-item:last-child {
       margin-bottom: 0; }
     .wo-inner-side__choose-design-item:hover {
@@ -690,6 +691,10 @@ ol {
     position: relative;
     font-family: "MC Geo M3 bold";
     font-size: 20px; }
+    .wo-inner-side__choose-price-input-wrapper label {
+      font-size: 20px; }
+      .wo-inner-side__choose-price-input-wrapper label .wo-inner-side__choose-price-input-label-price {
+        font-size: 20px; }
   .wo-inner-side__choose-price-item {
     width: calc(50% - 8px);
     height: 112px;

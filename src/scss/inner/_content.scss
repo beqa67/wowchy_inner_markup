@@ -493,6 +493,7 @@
     padding: 11px 12px;
     margin-bottom: 16px;
     cursor: pointer;
+    border-radius: 2px;
     &:last-child {
       margin-bottom: 0;
     }
@@ -634,6 +635,14 @@
     position: relative;
     font-family: $bold-m3;
     font-size: 20px;
+
+    label {
+      font-size: 20px;
+
+      .wo-inner-side__choose-price-input-label-price {
+        font-size: 20px;
+      }
+    }
   }
 
   &__choose-price-item {
