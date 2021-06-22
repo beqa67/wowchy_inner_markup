@@ -246,6 +246,22 @@ ol {
       padding-top: 100px; } }
   .wo-inner .wo-content > .row > .col-xl-4 {
     padding-bottom: 120px; }
+  .wo-inner .faqs-accordion__header {
+    padding: 34px 32px;
+    line-height: 1;
+    border-bottom: 0;
+    transition: padding 0.1s;
+    color: #423F3F; }
+    .wo-inner .faqs-accordion__header:not(.collapsed) {
+      padding-bottom: 24px; }
+  .wo-inner .faqs-accordion .card-body {
+    padding: 0 32px 32px 32px !important;
+    transition: opacity 0.1s;
+    color: #5E6369;
+    font-size: 14px;
+    line-height: 17px; }
+  .wo-inner .faqs-accordion .collapsing:not(.show) .card-body {
+    opacity: 0; }
 
 .wo-inner-slider {
   background-color: #fff;
