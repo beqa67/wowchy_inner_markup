@@ -41,6 +41,10 @@
 .wo-inner-slider {
   background-color: #fff;
   padding-top: 89px;
+
+  @media (max-width: 991px) {
+    padding-top: 53px;
+  }
 }
 
 .wo-content {
@@ -165,7 +169,7 @@
     font-family: $bold-n2;
 
     @media (max-width: 1199px) {
-      font-size: 24px;
+      font-size: 28px;
     }
   }
 }
@@ -182,6 +186,11 @@
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 
@@ -294,7 +303,8 @@
   margin-bottom: 120px;
 
   @media (max-width: 1199px) {
-    display: none;
+    margin-top: 45px;
+    margin-bottom: 24px;
   }
 
   &__title {
@@ -302,6 +312,11 @@
     font-size: 24px;
     color: #484848;
     margin-bottom: 32px;
+
+    @media (max-width: 1199px) {
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
   }
 
   &__item {
@@ -320,6 +335,11 @@
         transform: translateY(-50%) scale(1.1);
       }
     }
+
+    @media (max-width: 1199px) {
+      height: 313px;
+      margin-bottom: 16px;
+    }
   }
 
   &__item-info {
@@ -337,11 +357,19 @@
     width: 66%;
     object-fit: contain;
     transition: 0.3s;
+
+    @media (max-width: 991px) {
+      width: 50%;
+    }
   }
 
   &__item-title {
     font-family: $bold-n2;
     font-size: 16px;
+
+    @media (max-width: 991px) {
+      font-size: 14px;
+    }
   }
 
   &__item-sub-title {
@@ -376,6 +404,10 @@
 
   .wo-inner-promos__item-bg {
     width: auto;
+
+    @media (max-width: 1199px) {
+      width: 35%;
+    }
   }
 }
 
@@ -388,6 +420,7 @@
 
   @media (max-width: 991px) {
     padding: 20px 10px;
+    min-height: 488px;
   }
 
   &__progress-dot {
@@ -467,7 +500,8 @@
     margin: 40px 0 35px 0;
 
     @media (max-width: 991px) {
-      font-size: 18px;
+      font-size: 16px;
+      margin: 26px 0 16px 0;
     }
   }
 
@@ -561,6 +595,10 @@
     &:hover {
       border-color: #1b73e8;
     }
+
+    @media (max-width: 991px) {
+     padding: 8px;
+    }
   }
 
   &__choose-design-item-img {
@@ -570,8 +608,8 @@
     margin-right: 18px;
 
     @media (max-width: 991px) {
-      min-width: 100px;
-      height: 88px;
+      min-width: 80px;
+      height: 58px;
     }
 
     img {
@@ -586,6 +624,10 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 10px;
+
+    @media (max-width: 991px) {
+      padding-bottom: 0;
+    }
   }
 
   &__choose-design-item-title {
@@ -597,7 +639,7 @@
     -webkit-line-clamp: 2; /* number of lines to show */
     -webkit-box-orient: vertical;
     @media (max-width: 991px) {
-      font-size: 14px;
+      font-size: 13px;
       line-height: 18px;
     }
   }
@@ -605,6 +647,11 @@
   &__choose-design-item-price {
     font-size: 14px;
     color: rgba(#423f3f, 0.7);
+
+    @media (max-width: 991px) {
+      font-size: 12px;
+      line-height: 1;
+    }
   }
 
   &__choose-type-item {
@@ -630,6 +677,10 @@
         transform: translateY(-50%) scale(1.1);
       }
     }
+    @media (max-width: 991px) {
+      padding: 21px 16px;
+      height: 157px;
+    }
   }
   &__choose-type-radio {
     position: absolute;
@@ -648,6 +699,10 @@
     justify-content: space-between;
     align-items: center;
     height: 112px;
+
+    @media (max-width: 1199px) {
+      height: 74px;
+    }
   }
 
   &__choose-price-icon {
@@ -663,9 +718,15 @@
 
     &--minus {
       margin-left: 24px;
+      @media (max-width: 1199px) {
+        margin-left: 10px;
+      }
     }
     &--plus {
       margin-right: 24px;
+      @media (max-width: 1199px) {
+        margin-right: 10px;
+      }
     }
 
     &--disabled {
@@ -727,6 +788,10 @@
 
     &:nth-last-of-type(-n + 2) {
       margin-bottom: 0;
+    }
+
+    @media (max-width: 1199px) {
+      height: 64px;
     }
   }
 
@@ -831,6 +896,10 @@
 
       &-large {
         height: 184px;
+
+        @media (max-width: 991px) {
+          height: 62px;
+        }
       }
     }
   }
@@ -846,10 +915,17 @@
     border-radius: 2px;
     margin-bottom: 16px;
     padding: 28px 24px;
+
+    @media (max-width: 991px) {
+      padding: 21px 16px 16px 16px;
+    }
   }
 
   &__send-method-item-header {
     margin-bottom: 30px;
+    @media (max-width: 991px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__send-method-item-header-text {
@@ -861,12 +937,25 @@
     font-size: 16px;
     line-height: 1;
     margin-bottom: 10px;
+
+    @media (max-width: 991px) {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
   }
   &__send-method-item-icon {
     margin-top: -8px;
+
+    @media (max-width: 991px) {
+      max-width: 48px;
+    }
   }
   &__send-method-item-text {
     font-size: 16px;
+
+    @media (max-width: 991px) {
+      font-size: 14px;
+    }
   }
 }
 
