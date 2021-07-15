@@ -997,3 +997,17 @@
     }
   }
 }
+
+.wo-inner-col-small {
+  @media (min-width: 991px) and (max-width: 1200px) {
+    flex: 0 0 37.333333%;
+    max-width: 37.333333%;
+  }
+}
+
+.wo-inner-col-big {
+  @media (min-width: 991px) and (max-width: 1200px) {
+    flex: 0 0 62.666667%;
+    max-width: 62.666667%;
+  }
+}

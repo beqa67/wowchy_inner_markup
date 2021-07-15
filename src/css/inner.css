@@ -942,3 +942,13 @@ ol {
       background: #888; }
     .select2-dropdown .select2-results__options::-webkit-scrollbar-thumb:hover {
       background: #555; }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .wo-inner-col-small {
+    flex: 0 0 37.333333%;
+    max-width: 37.333333%; } }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .wo-inner-col-big {
+    flex: 0 0 62.666667%;
+    max-width: 62.666667%; } }
