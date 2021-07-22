@@ -238,12 +238,18 @@ ol {
   border: none;
   border-bottom: 1px solid #efefef; }
 
+body {
+  padding-top: 60px; }
+
 .wo-inner {
   padding-top: 104px;
   background-color: #f6f6f8; }
   @media (max-width: 1199px) {
     .wo-inner {
       padding-top: 100px; } }
+  @media (max-height: 890px) {
+    .wo-inner {
+      padding-top: 75px; } }
   .wo-inner .wo-content > .row > .col-xl-4 {
     padding-bottom: 120px; }
   .wo-inner .faqs-accordion__header {
@@ -522,7 +528,10 @@ ol {
   @media (min-height: 1000px) {
     .wo-inner-side-wrapper {
       top: 170px; } }
-  @media (max-height: 999px) {
+  @media (max-width: 991px) {
+    .wo-inner-side-wrapper {
+      position: static; } }
+  @media (max-height: 666px) {
     .wo-inner-side-wrapper {
       position: static; } }
   @media (max-width: 1199px) {
@@ -548,6 +557,10 @@ ol {
     .wo-inner-side {
       padding: 20px 10px;
       min-height: 488px; } }
+  @media (max-height: 890px) {
+    .wo-inner-side {
+      padding: 14px 22px 22px 22px;
+      min-height: initial; } }
   .wo-inner-side__progress-dot {
     position: absolute;
     top: 50%;
@@ -602,6 +615,10 @@ ol {
       .wo-inner-side__title {
         font-size: 16px;
         margin: 26px 0 16px 0; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__title {
+        margin: 20px 0 15px 0;
+        font-size: 22px; } }
   .wo-inner-side__footer {
     display: flex;
     margin-top: 24px; }
@@ -670,6 +687,10 @@ ol {
     @media (max-width: 991px) {
       .wo-inner-side__choose-design-item {
         padding: 8px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-design-item {
+        margin-bottom: 8px;
+        padding: 7px 7px; } }
   .wo-inner-side__choose-design-item-img {
     width: 122px;
     min-width: 122px;
@@ -679,6 +700,11 @@ ol {
       .wo-inner-side__choose-design-item-img {
         min-width: 80px;
         height: 58px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-design-item-img {
+        height: 71px;
+        width: 99px;
+        min-width: 99px; } }
     .wo-inner-side__choose-design-item-img img {
       width: 100%;
       height: 100%;
@@ -689,6 +715,9 @@ ol {
     justify-content: space-between;
     padding-bottom: 10px; }
     @media (max-width: 991px) {
+      .wo-inner-side__choose-design-item-info {
+        padding-bottom: 0; } }
+    @media (max-height: 890px) {
       .wo-inner-side__choose-design-item-info {
         padding-bottom: 0; } }
   .wo-inner-side__choose-design-item-title {
@@ -704,6 +733,9 @@ ol {
       .wo-inner-side__choose-design-item-title {
         font-size: 13px;
         line-height: 18px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-design-item-title {
+        line-height: 20px; } }
   .wo-inner-side__choose-design-item-price {
     font-size: 14px;
     color: rgba(66, 63, 63, 0.7); }
@@ -733,6 +765,9 @@ ol {
       .wo-inner-side__choose-type-item {
         padding: 21px 16px;
         height: 157px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-type-item {
+        height: 177px; } }
   .wo-inner-side__choose-type-radio {
     position: absolute;
     visibility: hidden;
@@ -749,6 +784,9 @@ ol {
     @media (max-width: 1199px) {
       .wo-inner-side__choose-price-input-container {
         height: 74px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-price-input-container {
+        height: 87px; } }
   .wo-inner-side__choose-price-icon {
     width: 54px;
     min-width: 54px;
@@ -759,6 +797,11 @@ ol {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-price-icon {
+        width: 45px;
+        min-width: 45px;
+        height: 45px; } }
     .wo-inner-side__choose-price-icon--minus {
       margin-left: 24px; }
       @media (max-width: 1199px) {
@@ -812,6 +855,9 @@ ol {
     @media (max-width: 1199px) {
       .wo-inner-side__choose-price-item {
         height: 64px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__choose-price-item {
+        height: 79px; } }
   .wo-inner-side__heart-text {
     font-size: 14px;
     line-height: 20px;
@@ -851,9 +897,15 @@ ol {
     @media (max-width: 756px) {
       .wo-inner-side__input-label {
         font-size: 11px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__input-label {
+        margin-bottom: 6px; } }
   .wo-inner-side__input-group {
     position: relative;
     margin-bottom: 19px; }
+    @media (max-height: 890px) {
+      .wo-inner-side__input-group {
+        margin-bottom: 12px; } }
     .wo-inner-side__input-group .select2-container--bootstrap .select2-selection--single {
       height: auto !important;
       border: none !important;
@@ -862,7 +914,8 @@ ol {
     position: absolute;
     top: 50%;
     right: 16px;
-    pointer-events: none; }
+    pointer-events: none;
+    display: flex; }
   .wo-inner-side__input {
     border: 1px solid #efefef;
     border-radius: 2px;
@@ -875,6 +928,9 @@ ol {
     .wo-inner-side__input:focus {
       outline: none;
       border-color: #1b73e8; }
+    @media (max-height: 890px) {
+      .wo-inner-side__input {
+        padding: 11px 12px; } }
     .wo-inner-side__input--textarea {
       height: 70px;
       line-height: 20px; }
@@ -883,6 +939,9 @@ ol {
         @media (max-width: 991px) {
           .wo-inner-side__input--textarea-large {
             height: 62px; } }
+        @media (max-height: 890px) {
+          .wo-inner-side__input--textarea-large {
+            height: 174px; } }
   .wo-inner-side__send-method .col-12:last-child .wo-inner-side__send-method-item {
     margin-bottom: 0; }
   .wo-inner-side__send-method-item {
@@ -893,11 +952,17 @@ ol {
     @media (max-width: 991px) {
       .wo-inner-side__send-method-item {
         padding: 21px 16px 16px 16px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__send-method-item {
+        padding: 14px 18px; } }
   .wo-inner-side__send-method-item-header {
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .wo-inner-side__send-method-item-header {
         margin-bottom: 20px; } }
+    @media (max-height: 890px) {
+      .wo-inner-side__send-method-item-header {
+        margin-bottom: 14px; } }
   .wo-inner-side__send-method-item-header-text {
     padding-right: 0; }
   .wo-inner-side__send-method-item-title {
