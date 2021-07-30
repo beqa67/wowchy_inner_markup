@@ -900,6 +900,8 @@ body {
     @media (max-height: 890px) {
       .wo-inner-side__input-label {
         margin-bottom: 6px; } }
+  .wo-inner-side__input-wrapper {
+    position: relative; }
   .wo-inner-side__input-group {
     position: relative;
     margin-bottom: 19px; }
@@ -913,6 +915,7 @@ body {
   .wo-inner-side__input-icon {
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     right: 16px;
     pointer-events: none;
     display: flex; }
