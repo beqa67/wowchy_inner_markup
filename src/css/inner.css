@@ -372,6 +372,8 @@ body {
   font-family: "MC Geo N2";
   line-height: 26px;
   color: #5e6369; }
+  .wo-product-info * {
+    display: inline; }
   .wo-product-info:not(.wo-product-info--expanded) {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -914,11 +916,14 @@ body {
       outline: none; }
   .wo-inner-side__input-icon {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 16px;
+    top: 1px;
+    right: 1px;
     pointer-events: none;
-    display: flex; }
+    display: flex;
+    align-items: center;
+    height: calc(100% - 2px);
+    background-color: #fff;
+    padding: 0 14px 0 5px; }
   .wo-inner-side__input {
     border: 1px solid #efefef;
     border-radius: 2px;
